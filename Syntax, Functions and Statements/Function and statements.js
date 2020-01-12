@@ -85,4 +85,16 @@ function TimeToWalk(arg1, arg2, arg3) {
 
 }
 
+function CalorieObject(arr){
+  
+  let curentObj = {};
+  for(i = 0 ; i <=arr.length ; i+=2 ){
+    
+      curentObj[arr[i]]= Number(arr[i+1])
+  
+  }
+  console.log(curentObj);
+  
+}
+
 
